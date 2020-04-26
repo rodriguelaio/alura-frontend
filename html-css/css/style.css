@@ -1,0 +1,50 @@
+/* Dicionário de cores:
+
+Hexadecimal -> 0123456789ABCDEF
+
+# RR GG BB
+0 -> Ausência de representação de uma cor
+F -> Máximo de representação de uma cor
+#000000 -> Representação da cor PRETA
+#FFFFFF -> Representação da cor BRANCA
+#00FF00 -> Representação da cor VERDE ao máximo
+           (somente os valores que representam a cor VERDE estão ligados, e em sua representação máxma)
+
+red -> Representação literal da cor
+yellow -> Representação literal da cor
+grey -> Representação literal da cor
+
+RGB -> 0, 1, 2, 3, 4, 5,... 255
+0 -> Ausência de representação de uma cor
+255 -> Máximo de representação de uma cor
+rgb(R, G, B)
+rgb(0, 0, 255) -> Representação da cor AZUL ao máximo
+                  (somente os valores que representam a cor VERDE estão ligados, e em sua representação máxma) */
+
+body {
+    background: #cccccc; /*Background == Alteração da cor do fundo*/
+}
+
+#banner {
+    width: 100%; /*Width == Largura. Medida pode ser em percentual de representatividade da area em que o objeto será exibido, ou em pixel (px)*/
+}
+
+h1 {
+    text-align: center; /*Text-align == Alteração do alinhamento do texto*/
+}
+
+p {
+    text-align: center; /*Text-align == Alteração do alinhamento do texto*/
+    background: #cccccc; /*Background == Alteração da cor do fundo*/
+}
+
+#missao { /*# == Identificador*/
+    font-size: 20px;
+}
+
+/* Aplica o CSS em todas as tags STRONG que estão dentro de tags EM */
+em strong {
+    /*color: #FF0000; /*Color == Alteração da cor do texto*/
+    /*color: rgb(255, 0, 0); /*Color == Alteração da cor do texto*/
+    color: red; /*Color == Alteração da cor do texto*/
+}
